@@ -95,7 +95,13 @@ bool flip_edge(
 />
 
 
-## Main Function
+## Instruction to Run the Code
+- I extended the assignment format, so clone and build following `https://github.com/alecjacobson/geometry-processing-introduction`
+- Put the submitted `geodesic_remesh.cpp` in `src/` and `geodesic_ermesh.h` in `include/`.
+- Build and run:
+```
+./introduction
+```
 - 'geodesic_remesh' function first initializes a path from two random vertices in the given mesh. It uses Dijkstra's algorithm to initialize the path.
 ```
 void geodesic_remesh(
@@ -108,6 +114,10 @@ void geodesic_remesh(
     int doInit
 )
 ```
+- Press 'r' to reset a new initial path and compute geodesic.
+- Press 'm' to show the computed geodesic.
+- Press 'l' to show wireframes.
+
 
 
 
