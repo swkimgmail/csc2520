@@ -97,6 +97,7 @@ bool flip_edge(
 
 ## Instruction to Run the Code
 - I extended the assignment format, so clone and build following `https://github.com/alecjacobson/geometry-processing-introduction`
+- Replace `main.cpp` with the submitted `main.cpp`.
 - Put the submitted `geodesic_remesh.cpp` in `src/` and `geodesic_ermesh.h` in `include/`.
 - Build and run:
 ```
